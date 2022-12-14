@@ -524,6 +524,10 @@ input[type="checkbox"] {
     padding-bottom: 133px;
 }
 
+.repair-menu__item {
+    box-shadow: 5px 2px 2px lightgrey;
+}
+
 .repair-menu {
     padding-top: 18px;
     height: 638px;   
@@ -582,6 +586,7 @@ input[type="checkbox"] {
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
     height: 51px;
     width: 207px;
+    margin-top: -14px;
     padding-top: 15px;
     padding-left: 10px;
     font-family: 'Yeseva One', 'Times New Roman', Times, serif;
@@ -745,6 +750,7 @@ input[type="checkbox"] {
 
 .customers-wrapper_item {
     min-width: 30%;
+    box-shadow: 5px 2px 2px lightgrey;
 }
 
 .customers-wrapper_item-name {

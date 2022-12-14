@@ -164,7 +164,7 @@ h1.hero-title {
 }
 
 .hero {
-    background-image: url('./img/hero.jpg');
+    background-image: url('../img/hero.jpg');
     background-size: cover;
     height: 707px;
     padding-top: 194px;
@@ -249,7 +249,7 @@ h1.hero-title {
 }
 
 .completedWorks-division {
-    background-image: url('./img/image 2.1.jpg');
+    background-image: url('../img/image 2.1.jpg');
     background-repeat: no-repeat;
     height: 482px;
     background-position-x: 570px;
@@ -378,7 +378,7 @@ hr {
 }
 
 .videocam {
-    background-image: url('./img/video.jpg');
+    background-image: url('../img/video.jpg');
     height: 439px;
     background-size: cover;
     position: relative;
@@ -533,18 +533,18 @@ input[type="checkbox"] {
 }
 
 .item__1 {
-    background-image: url('./img/blue-wall.jpg');
+    background-image: url('../img/blue-wall.jpg');
     background-repeat: no-repeat;
 
 }
 
 .item__2 {
-    background-image: url('./img/red-curtains.jpg');
+    background-image: url('../img/red-curtains.jpg');
     background-repeat: no-repeat;
 }
 
 .item__3 {
-    background-image: url('./img/black-wall.jpg');
+    background-image: url('../img/black-wall.jpg');
     background-repeat: no-repeat;
 }
 
@@ -585,7 +585,7 @@ input[type="checkbox"] {
 }
 
 .repair-middle-div {
-    background-image: url('./img/image6.jpg');
+    background-image: url('../img/image6.jpg');
     height: 612px;
     padding-top: 49px;
     background-position-x: 0;
@@ -720,7 +720,7 @@ input[type="checkbox"] {
 
 .customers {
     background-color: rgb(253,253,253);
-    background-image: url('./img/downtown.png');
+    background-image: url('../img/downtown.png');
     background-repeat: repeat-x;
     background-position: left bottom;
     height: 1109px;
@@ -806,7 +806,7 @@ span.area:before {
     width: 32px;
     height: 32px;
     padding-right: 16px;
-    background-image: url('./img/area.svg');
+    background-image: url('../img/area.svg');
     background-repeat: no-repeat;
 }
 span.completion-time {
@@ -821,7 +821,7 @@ span.completion-time:before {
     height: 32px;
     margin-left: 16px;
     padding-right: 16px;
-    background-image: url('./img/calendar.svg');
+    background-image: url('../img/calendar.svg');
     background-repeat: no-repeat;
 }
 
@@ -836,7 +836,7 @@ span.completion-time:before {
     width: 100%;
     height: 130%;
     margin: -89px;
-    background-image: url('./img/Ericson-building.jpg');
+    background-image: url('../img/Ericson-building.jpg');
     filter: brightness(50%);
 }
 .contacts-extrabglayer{
@@ -953,13 +953,13 @@ span.completion-time:before {
 }
 
 .email-button {
-    background-image: url('./img/email.svg');
+    background-image: url('../img/email.svg');
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
 .instagram-button {
-    background-image: url('./img/insta.svg');
+    background-image: url('../img/insta.svg');
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -998,7 +998,7 @@ span.completion-time:before {
 }
 
 .fantasies {
-    background-image: url('./img/fantasies.jpg');
+    background-image: url('../img/fantasies.jpg');
     background-size: cover;
     height: 864px;
     padding-top: 130px;
@@ -1059,11 +1059,11 @@ span.completion-time:before {
 .fantasies-pictures-1__item-1 {
     margin-bottom: 30px;
     height: 560px;
-    background-image: url('./img/clock-on-shelf.jpg');
+    background-image: url('../img/clock-on-shelf.jpg');
 }
 
 .fantasies-pictures-1__item-2 {
-    background-image: url('./img/living-room.jpg');
+    background-image: url('../img/living-room.jpg');
     height: 350px;
 }
 
@@ -1076,12 +1076,12 @@ span.completion-time:before {
 .fantasies-pictures-2__item-1 {
     margin-bottom: 30px;
     height: 275px;
-    background-image: url('./img/fantasies-pic2__item-1.jpg');
+    background-image: url('../img/fantasies-pic2__item-1.jpg');
 }
 
 .fantasies-pictures-2__item-2 {
     height: 625px;
-    background-image: url('./img/fantasies-pic2__item-2.jpg');
+    background-image: url('../img/fantasies-pic2__item-2.jpg');
 }
 
 
@@ -1183,7 +1183,7 @@ span.completion-time:before {
 
     .completedWorks-mobile {
         height: 250px;
-        background-image: url('./img/2.png');
+        background-image: url('../img/2.png');
         background-repeat: no-repeat;
         margin-bottom: 5%;
         padding-top: 35%;
@@ -1205,12 +1205,12 @@ span.completion-time:before {
     }
 
     .item_left {
-        background-image: url('./img/item_left.svg');
+        background-image: url('../img/item_left.svg');
         background-repeat: no-repeat;
     }
 
     .item_right {
-        background-image: url('./img/item_right.svg');
+        background-image: url('../img/item_right.svg');
         background-repeat: no-repeat;
     }
 
@@ -1355,7 +1355,7 @@ span.completion-time:before {
     }
 
     .fantasies-mobile {
-        background-image: url('./img/fantasies-pictures-1__item-1.jpg');
+        background-image: url('../img/fantasies-pictures-1__item-1.jpg');
     }
 
     .contacts {

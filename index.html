@@ -28,7 +28,7 @@
                 </ul>
             </nav>
             <span><a href="tel:89287683239" class="header-span">+7 (928) 768-32-39</a></span>
-            <input type="button" class="button call-request" value="Request a call" />
+            <input type="button" class="button call-request" value="Request a call" >
         </div>
     </header>
     <main>
@@ -111,8 +111,10 @@ Only a small part of the work performed by our company is presented on the site.
                 <hr class="monitoring-hr">
                 <p class="monitoring-para">At each facility, a camera is installed that broadcasts the progress of work on the<br>clock. At any time, you can go to our website and monitor the progress of work in<br>your apartment. You can watch the live broadcast from one of our facilities!<br>Leave a request below and you will receive a link to the broadcast.</p>
                 <form class="monitoring-form" id="monitoring-form">
-                    <span class="form-span"><label for="monitoringFormName" >Name</label><br><input type="text" class="holder" id="monitoringFormName" placeholder="What is your name:" ><hr class="monitoring-form-hr"></span>
-                    <span class="form-span"><label for="monitoringFormPhone" >Phone</label><br><input type="tel" class="holder" id="monitoringFormPhone" placeholder="Your phone number:" pattern="\+[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" ><hr class="monitoring-form-hr"></span>
+                    <span class="form-span"><label for="monitoringFormName" >Name</label><br>
+                        <input type="text" class="holder" id="monitoringFormName" placeholder="What is your name:" ></span>
+                    <span class="form-span"><label for="monitoringFormPhone" >Phone</label><br>
+                        <input type="tel" class="holder" id="monitoringFormPhone" placeholder="Your phone number:" pattern="\+[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" ></span>
                     <span class="form-span form-span__button-top"><input class="button monitoring-button" type="submit" value="Submit" ></span>
                     <div class="form-p">
                         <label class="label">
@@ -128,10 +130,10 @@ Only a small part of the work performed by our company is presented on the site.
             <div class="container repair-container">
                 <h3 class="subtitle repair-h3">Types of repair</h3>
                 <div class="intermediary-ruler">
-                    <img src="img/wrench-and-hammer.svg" alt="Repair works suggested" height="37px" class="dinky-heading">
+                    <img src="img/wrench-and-hammer.svg" alt="Repair works suggested" width="37" class="dinky-heading">
                 </div>
                 <div class="wrapper">
-                 <span><div class="repair-menu item__1">
+                 <div class="repair-menu item__1">
                     <div class="repair-menu__item">
                         <p class="repair-para">Redecorating</p>
                         <ul class="repair-list">
@@ -145,8 +147,8 @@ Only a small part of the work performed by our company is presented on the site.
                         </ul>
                     </div>
                     <div class="price">from 900 rub / m2</div>
-                 </div></span>
-                 <span><div class="repair-menu item__2">
+                 </div>
+                 <div class="repair-menu item__2">
                     <div class="repair-menu__item">
                         <p class="repair-para">Overhaul</p>
                         <ul class="repair-list">
@@ -160,8 +162,8 @@ Only a small part of the work performed by our company is presented on the site.
                         </ul>
                     </div>
                     <div class="price">from 1800 rub / m2</div>
-                 </div></span>
-                 <span><div class="repair-menu item__3">
+                 </div>
+                 <div class="repair-menu item__3">
                     <div class="repair-menu__item">
                         <p class="repair-para">Designer Repair</p>
                         <ul class="repair-list">
@@ -175,24 +177,24 @@ Only a small part of the work performed by our company is presented on the site.
                         </ul>
                     </div>
                     <div class="price">from 4000 rub / m2</div>
-                 </div></span>
+                 </div>
                 </div>
                 <div class="repair-middle-div">
                     <div class="repair-middle-div__right">
                         <div class="repair-middle-div__right__item">
-                            <span class="span-circle"><div class="circle_2">01</div></span>
+                            <div class="circle_2">01</div>
                             <span class="repair-middle_span">Our specialist will arrive for measurements per day<br>contact, or appoint a date convenient for you</span>
                         </div>                    
                         <div class="repair-middle-div__right__item">
-                            <span class="span-circle"><div class="circle_2">02</div></span>
+                            <div class="circle_2">02</div>
                             <span class="repair-middle_span">Free metering</span>
                         </div>
                         <div class="repair-middle-div__right__item">
-                            <span class="span-circle"><div class="circle_2">03</div></span>
+                            <div class="circle_2">03</div>
                             <span class="repair-middle_span">Free consultation</span>
                         </div>
                         <div class="repair-middle-div__right__item">
-                            <span class="span-circle"><div class="circle_2">04</div></span>
+                            <div class="circle_2">04</div>
                             <span class="repair-middle_span">Get a cost estimate and<br>the timing of your future repairs</span>
                         </div>
                     </div>
@@ -355,8 +357,8 @@ Only a small part of the work performed by our company is presented on the site.
                 </div>
                 <p class="title contacts-para" id="contacts" >Rostov-on-Don, Nansen St., 239 Shopping Center Decorum
                 Tel +7 (928) 768 32 29</p>
-                <input type="button" class="button contactUs-button email-button" onclick="document.location.href='mailto:John.Doe@example.com?subject=Regarding%20your%20repair%20services';" >
-                <input type="button" class="button contactUs-button instagram-button" onclick="event.preventDefault();" >
+                <input type="button" class="button contactUs-button email-button" value="&#8203;" onclick="document.location.href='mailto:John.Doe@example.com?subject=Regarding%20your%20repair%20services';" >
+                <input type="button" class="button contactUs-button instagram-button" value="&#8203;" onclick="event.preventDefault();" >
                 <div class="map">
                     <img src="img/map.jpg" alt="map" title="We are here" >
                 </div>                              

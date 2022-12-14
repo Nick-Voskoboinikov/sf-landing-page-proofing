@@ -495,6 +495,11 @@ input[type="checkbox"] {
     color: rgba(54, 54, 54, 0.3);
 }
 
+#monitoringFormName, #monitoringFormPhone{
+    border-bottom: 1px solid var(--gen-light-accent-color, #E3B873);
+    padding-right: 64px;
+}
+
 /* подготовка */
 .repair {
     height: 1800px;
@@ -1306,6 +1311,8 @@ span.completion-time:before {
         width: initial;
         color: var(--gen-light-color, white);
     }
+
+    
 
     .repair {
         height: 2050px;

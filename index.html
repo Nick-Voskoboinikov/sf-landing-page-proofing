@@ -111,12 +111,12 @@ Only a small part of the work performed by our company is presented on the site.
                 <hr class="monitoring-hr">
                 <p class="monitoring-para">At each facility, a camera is installed that broadcasts the progress of work on the<br>clock. At any time, you can go to our website and monitor the progress of work in<br>your apartment. You can watch the live broadcast from one of our facilities!<br>Leave a request below and you will receive a link to the broadcast.</p>
                 <form class="monitoring-form" id="monitoring-form">
-                    <span class="form-span"><label for="monitoringFormName" >Name</label><br><input type="text" class="holder" id="monitoringFormName" placeholder="What is your name:"><hr class="monitoring-form-hr"></span>
-                    <span class="form-span"><label for="monitoringFormPhone" >Phone</label><br><input type="tel" class="holder" id="monitoringFormPhone" placeholder="Your phone number:"  pattern="\+[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"><hr class="monitoring-form-hr"></span>
-                    <span class="form-span form-span__button-top"><input class="button monitoring-button" type="submit" value="Submit" /></span>
+                    <span class="form-span"><label for="monitoringFormName" >Name</label><br><input type="text" class="holder" id="monitoringFormName" placeholder="What is your name:" ><hr class="monitoring-form-hr"></span>
+                    <span class="form-span"><label for="monitoringFormPhone" >Phone</label><br><input type="tel" class="holder" id="monitoringFormPhone" placeholder="Your phone number:" pattern="\+[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" ><hr class="monitoring-form-hr"></span>
+                    <span class="form-span form-span__button-top"><input class="button monitoring-button" type="submit" value="Submit" ></span>
                     <div class="form-p">
                         <label class="label">
-                            <input type="checkbox" class="checkbox" checked>
+                            <input type="checkbox" class="checkbox" checked >
                             <span class="fake"></span>
                             <span class="text">I agree to the processing of personal data</span>
                         </label>
@@ -197,26 +197,23 @@ Only a small part of the work performed by our company is presented on the site.
                         </div>
                     </div>
                     <form class="measurements-form" id="measurementForm"> Leave a request for free<br>departure of the measurer
-                        <p class="measurements-form-para"><label>Name<br>
-                            <input type="text" class="repair-wrapper" placeholder="What is your name:">
-                         </label>
+                        <p class="measurements-form-para"><label for="measurementsFormName">Name</label><br>
+                            <input type="text" class="repair-wrapper" id="measurementsFormName" placeholder="What is your name:">
                         </p>
-                        <p class="measurements-form-para"><label>Phone<br>
-                            <input type="tel" class="repair-wrapper" placeholder="Your phone number:">
-                         </label>
+                        <p class="measurements-form-para"><label for="measurementsFormPhone">Phone</label><br>
+                            <input type="tel" class="repair-wrapper" id="measurementsFormPhone" placeholder="Your phone number:">
                         </p>
-                        <p class="measurements-form-para"><label>Email<br>
-                            <input type="email" class="repair-wrapper" placeholder="Your email">
-                         </label>
+                        <p class="measurements-form-para"><label for="measurementsFormEmail" >Email</label><br>
+                            <input type="email" class="repair-wrapper" id="measurementsFormEmail" placeholder="Your email"   pattern="\+[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" >
                         </p>
                         <div class="measurements-form-para measurements-form_checkbox">
                             <label class="label">
-                                <input type="checkbox" class="checkbox" checked>
+                                <input type="checkbox" class="checkbox" checked >
                                 <span class="fake"></span>
                                 <span class="text">I agree to the processing of personal data.</span>
                             </label>
                         </div>
-                        <p class="measurements-form-para"><input type="button" class="button measurements-form-button" value="Call the measurer" /></p>                        
+                        <p class="measurements-form-para"><input type="button" class="button measurements-form-button" value="Call the measurer" ></p>                        
                     </form>
                 </div>
                 <div class="repair-footer">
@@ -333,14 +330,14 @@ Only a small part of the work performed by our company is presented on the site.
             <div class="contacts-extrabglayer"></div>
             <form class="question-form" id="questionForm"><h3 class="subtitle questions-h3" >Have any questions?</h3>
                 <div class="question-form__division">
-                    <span class="contacts-form-run"><label for="questionFormName" form="questionForm" >Name</label><br>
-                        <input type="text" class="contacts-wrapper" id="questionFormName" placeholder="What is your name:">
+                    <span class="contacts-form-run"><label for="questionFormName"  >Name</label><br>
+                        <input type="text" class="contacts-wrapper" id="questionFormName" placeholder="What is your name:" >
                     </span>
-                    <span class="contacts-form-run"><label for="questionFormPhone" form="questionForm" >Phone</label><br>
-                        <input type="tel" class="contacts-wrapper" id="questionFormPhone" placeholder="Your phone number:">
+                    <span class="contacts-form-run"><label for="questionFormPhone"  >Phone</label><br>
+                        <input type="tel" class="contacts-wrapper" id="questionFormPhone" placeholder="Your phone number:" >
                     </span>
-                    <span class="contacts-form-run"><label for="questionFormRequest" form="questionForm" >Question</label><br>
-                        <input type="text" class="contacts-wrapper" id="questionFormRequest" placeholder="I want to know:">
+                    <span class="contacts-form-run"><label for="questionFormRequest"  >Question</label><br>
+                        <input type="text" class="contacts-wrapper" id="questionFormRequest" placeholder="I want to know:" >
                     </span>
                 </div>
                 <div class="contacts-form_checkbox">
@@ -350,7 +347,7 @@ Only a small part of the work performed by our company is presented on the site.
                         <span class="text">I agree to the processing of personal data.</span>
                     </label>                    
                 </div>
-                <input type="button" class="button contacts-button" value="Submit" />                       
+                <input type="button" class="button contacts-button" value="Submit" >                       
             </form>
             <div class="container contacts-container">
                 <div class="map-mobile">
@@ -358,10 +355,10 @@ Only a small part of the work performed by our company is presented on the site.
                 </div>
                 <p class="title contacts-para" id="contacts" >Rostov-on-Don, Nansen St., 239 Shopping Center Decorum
                 Tel +7 (928) 768 32 29</p>
-                <input type="button" class="button contactUs-button email-button" onclick="document.location.href='mailto:John.Doe@example.com?subject=Regarding%20your%20repair%20services';" />
-                <input type="button" class="button contactUs-button instagram-button" onclick="event.preventDefault();" />
+                <input type="button" class="button contactUs-button email-button" onclick="document.location.href='mailto:John.Doe@example.com?subject=Regarding%20your%20repair%20services';" >
+                <input type="button" class="button contactUs-button instagram-button" onclick="event.preventDefault();" >
                 <div class="map">
-                    <img src="img/map.jpg">
+                    <img src="img/map.jpg" alt="map" title="We are here" >
                 </div>                              
             </div>
         </section>

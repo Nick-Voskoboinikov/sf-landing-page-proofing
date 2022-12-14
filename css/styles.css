@@ -662,23 +662,16 @@ input[type="checkbox"] {
     padding-top: 20px;
 }
 
-.measurements-form-hr {
-    width: 450px;
-    background: rgba(255, 255, 255, 0.15);
-    float: left;
-}
-
-.repair-button {
+.measurements-form-button {
     width: 213px;
     margin-left: 192px;
 }
 
-.repair-holder {
+.repair-wrapper {
     font-size: 14px;
     line-height: 23px;
     width: 450px;
     border-width: 1px;
-    color: var(--gen-light-color, white);
     background-color: #131313;
 }
 
@@ -1090,7 +1083,7 @@ span.completion-time:before {
 .question-form > .questions-h3 {
     color: var(--gen-light-color, white);
 }
-.question-form input[type="text"], .question-form input[type="tel"], .question-form input[type="email"] {
+.question-form input[type="text"], .question-form input[type="tel"], .question-form input[type="email"], .measurements-form-para input[type="text"], .measurements-form-para input[type="tel"], .measurements-form-para input[type="email"]  {
     color: var(--gen-light-color, white);
     border-bottom: 1px solid var(--gen-light-color, white);
 }

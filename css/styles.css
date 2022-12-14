@@ -837,6 +837,8 @@ span.completion-time:before {
     height: 130%;
     margin: -89px;
     background-image: url('../img/Ericson-building.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: brightness(50%);
 }
 .contacts-extrabglayer{
@@ -846,7 +848,7 @@ span.completion-time:before {
     z-index: -1;
     width: 85vw;
     height: 105vh;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .75);
 }
 
 .question-form {

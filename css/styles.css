@@ -390,7 +390,8 @@ hr {
 .video-container {
     position: relative;
     z-index: 1;
-    margin: 0 auto;
+    margin: auto;
+    text-align: center;
 }
 .video-container:before {
     content: '';
@@ -404,6 +405,14 @@ hr {
 .video-play-button{
     font-size: xx-large;
     border-radius: 50%;
+    display: block;
+    width: 85px;
+    height: 85px;
+    position: relative;
+    z-index: 3;
+    margin-left: auto;
+    margin-right: auto;
+    top: 140px;
 }
 
 .video-overlay {

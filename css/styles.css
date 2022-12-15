@@ -198,7 +198,7 @@ h1.hero-title {
     margin-top: .9em;
     font-size: 22px;
     line-height: 36px;
-    width: 519px;
+    max-width: 519px;
 }
 
 .hero-button {
@@ -1119,14 +1119,16 @@ span.completion-time:before {
 @media screen and (max-width: 1300px) {
     nav, .nav-button, .submit-button, .project-navigation, .completedWorks-arrow,
     .form-span__button-top, .repair-middle-div, .repair-footer, .customers, footer,
-    .fantasies-fashions, .fantasies-pictures-1, .fantasies-pictures-2, .fantasies-overlay, .map, .call-request {
+    .fantasies-fashions, .fantasies-pictures-1, .fantasies-pictures-2, .fantasies-overlay, .map, .call-request, .contacts-bglayer, .contacts-extrabglayer, footer {
         display: none;
     }
 
     .container {
         max-width: 90%;
-        padding-left:18px;
-        padding-right:18px;
+        padding-left: 9px;
+        padding-right: 9px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .wrapper {
@@ -1147,11 +1149,17 @@ span.completion-time:before {
         font-size: 23px;
         line-height: 132.83%;
     }
+    
+    .hero-block {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     .hero-para {
         font-size: 14px;
         line-height: 135.84%;
         padding-bottom: 30px;
+        max-width: 339px;
     }
 
     .hero-button {
@@ -1382,9 +1390,14 @@ span.completion-time:before {
     }
 
     .contacts {
-        height: 1020px;
+        height: 1095px;
+        background-color: black;
         padding-top: 100px;
         padding-left: 0px;
+    }
+
+    .contacts-para {
+        width: 100%;
     }
 
     .question-form {
